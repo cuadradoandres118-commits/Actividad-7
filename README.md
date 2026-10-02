@@ -652,3 +652,68 @@ CREATE TABLE cita (
  ## 👨‍💻 Autor
 
  **Nombre:** Annaela Marquez, Camilo Cuadrado.
+
+Tienes razón. En la conversación aparecen **29 preguntas**. Aquí están todas, resumidas y numeradas:
+
+ 29 preguntas y respuestas — Resumen
+
+# 29 preguntas y respuestas
+
+ 1. **¿Qué nivel Tier tendría un centro de datos que se cae 22 horas al año?**\
+    Aproximadamente **Tier II**, con 99,75 % de disponibilidad.
+2. **¿Por qué un técnico de climatización no debería entrar libremente a la sala de servidores?**\
+    Por **seguridad, protección de equipos, información y control de acceso**.
+3. **¿Qué pasa si se rompe el único cable de fibra de una empresa?**\
+    Se pierde la conectividad hasta reparar la fibra. Es un **punto único de falla**.
+4. **¿Por qué los servidores no tienen pantalla ni teclado?**\
+    Porque normalmente se **administran remotamente**, ahorrando espacio y costos.
+5. **¿Qué evita perder las notas si se daña un disco?**\
+    **RAID, copias de seguridad y replicación** protegen los datos.
+6. **¿Para qué sirven las baterías si ya hay generadores?**\
+    La **UPS** mantiene los equipos funcionando mientras arranca el generador.
+7. **¿En qué se gastan los 50 W adicionales con un PUE de 1,5?**\
+    En **refrigeración, UPS, distribución eléctrica, iluminación y sistemas auxiliares**.
+8. **¿Por qué no se usan rociadores de agua comunes en la sala de servidores?**\
+    Porque el agua puede dañar los equipos; se emplean sistemas de extinción adecuados.
+9. **¿Qué dato del edificio guardarías cada minuto para detectar un problema?**\
+    Principalmente **temperatura**, además de humedad.
+10. **¿Por qué es útil separar un problema grande en capas?**\
+     Facilita **localizar el problema y diagnosticarlo más rápidamente**.
+11. **Nombra tres aplicaciones y su protocolo de capa 7.**\
+     Chrome → **HTTP/HTTPS**; Gmail → **SMTP/IMAP**; Google Drive → **HTTP/HTTPS**.
+12. **¿Qué pasa si el servidor olvida tu sesión en cada clic?**\
+     Tendrías que **autenticarte continuamente**. Se utilizan cookies o tokens de sesión.
+13. **¿Qué preguntas de un rector se responden mejor con este modelo?**\
+     Preguntas sobre **disponibilidad, riesgos, seguridad, continuidad, costos y capacidad**.
+14. **¿Cómo dibujarías como grafo la topología de red del centro de datos?**\
+     Los **equipos son nodos** y las **conexiones son aristas**.
+15. **Si a las 10:04 sube la temperatura, ¿qué equipo revisarías primero?**\
+     El **sistema de climatización HVAC/CRAC/CRAH**.
+16. **¿Diferencia entre buscar «router» por palabra exacta o por significado?**\
+     Exacta → busca el **texto**; semántica → busca el **concepto**.
+17. **Para una transferencia bancaria, ¿ACID o BASE? ¿Y para «me gusta»?**\
+     Transferencia → **ACID** por consistencia. «Me gusta» → **BASE** por disponibilidad y escalabilidad.
+18. **¿Qué base de datos usarías para catálogo, carrito y pagos?**\
+     Catálogo → **SQL o NoSQL**; carrito → **Redis/NoSQL**; pagos → **SQL con ACID**.
+19. **¿Por qué una videollamada prefiere UDP y una transferencia bancaria TCP?**\
+     La videollamada prioriza **baja latencia**; la transferencia necesita **fiabilidad y orden de los datos**.
+20. **¿Por qué se agotaron las direcciones IPv4 y qué resuelve IPv6?**\
+     IPv4 tiene direcciones de **32 bits** y su espacio se agotó. IPv6 usa **128 bits**, proporcionando muchas más direcciones.
+21. **Si la IP es la dirección de tu casa, ¿qué sería la MAC?**\
+     La **MAC identifica la interfaz de red**, mientras la IP identifica su ubicación lógica en la red.
+22. **¿Qué ventajas tiene la fibra óptica frente al cobre?**\
+     Mayor **velocidad, distancia y capacidad**, además de menor interferencia electromagnética.
+23. **Si la página no carga, ¿por cuál capa empezarías a revisar?**\
+     Por las **capas inferiores**, empezando por física y red, y luego subiendo hasta aplicación.
+24. **¿Qué problemas tendría la universidad guardando las notas en hojas de cálculo sueltas?**\
+     **Inconsistencias, pérdida de datos, problemas de seguridad, duplicación y dificultad para hacer copias de seguridad**.
+25. **¿Qué columna une la tabla de estudiantes con la tabla de notas?**\
+     El **ID del estudiante**, que es clave primaria en estudiantes y clave foránea en notas.
+26. **Si las notas van dentro del estudiante, ¿qué ventaja y riesgo trae?**\
+     Ventaja: **simplicidad**. Riesgo: **dificultad de mantenimiento y posibles inconsistencias**.
+27. **¿Por qué guardar la sesión del usuario en memoria y no en disco?**\
+     Porque la **memoria es mucho más rápida**, aunque es volátil.
+28. **¿Qué pasa con una empresa si su único cable de fibra se rompe en una obra?**\
+     Puede perder todos los servicios de red hasta la reparación. La solución es tener **redundancia y rutas independientes**.
+29. **¿Qué pasa si el servidor olvida tu sesión en cada clic?**\
+     La aplicación no podría mantener al usuario identificado entre solicitudes; habría que **iniciar sesión repetidamente**.
